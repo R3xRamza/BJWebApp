@@ -10,7 +10,7 @@
   background-color: #ffffff;
   height: 1024px;
   position: relative;
-  width: 1440px;
+  width: inherit;
 }
 
 .desktop .overlap {
@@ -21,37 +21,38 @@
   left: 0;
   position: absolute;
   top: 183px;
-  width: 1440px;
+  width: 100vw;
 }
 
 .desktop .text-wrapper {
-  color: #000000;
-  font-family: "Crimson Text-Regular", Helvetica;
-  font-size: 68px;
-  font-weight: 400;
-  left: 278px;
-  letter-spacing: 0;
-  line-height: normal;
+  color: #38312c;
+  font-family: "FuturaCyrillicMedium", sans-serif;
+  src: local('FuturaCyrillicMedium'), url(/futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
+  font-size: 84px;
+  font-weight: 500;
+  left: 50%;
+  transform: translateX(-50%);
+  letter-spacing: -2.52px;
+  line-height: 84px;
   position: absolute;
   text-align: center;
-  top: 25px;
-  white-space: nowrap;
-  width: 885px;
+  top: 55px;
+  width: 100vw;
 }
 
 .desktop .p {
-  color: #000000;
-  font-family: "DM Serif Display-Regular", Helvetica;
-  font-size: 42px;
-  font-weight: 400;
-  left: 278px;
+  color: #38312c;
+  font-family: "LeMondeLivre-Normal", sans-serif;
+  src: local('LeMondeLivre-Normal'), url(/lemonde-livre/LeMondeLivre-Normal.ttf) format('truetype');
+  font-size: 24px;
+  font-weight: 500;
+  left: 512px;
   letter-spacing: 0;
-  line-height: normal;
+  line-height: 40px;
   position: absolute;
   text-align: center;
   top: 162px;
   white-space: nowrap;
-  width: 885px;
 }
 
 .desktop .overlap-group {
@@ -94,31 +95,33 @@
 
 .desktop .overlap-2 {
   border-radius: 14px;
-  height: 54px;
-  left: 686px;
+  height: 50px;
+  left: 713px;
   position: absolute;
-  top: 754px;
-  width: 159px;
+  top: 753px;
+  width: 108px;
 }
 
 .desktop .rectangle-2 {
-  background-color: #bfa160;
+  background-color: #c5a054;
   border-radius: 14px;
-  height: 54px;
+  height: 50px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 159px;
+  width: 108px;
 }
 
 .desktop .text-wrapper-3 {
-  color: #000000;
-  font-family: "DM Serif Display-Regular", Helvetica;
-  font-size: 28px;
-  font-weight: 400;
-  left: 45px;
+  color: #ffffff;
+  font-family: "FuturaCyrillicMedium", sans-serif;
+  src: local('FuturaCyrillicMedium'), url(./futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
+  font-size: 20px;
+  font-weight: 500;
+  left: 32px;
   letter-spacing: 0;
-  line-height: normal;
+  line-height: 20px;
   position: absolute;
-  top: 7px;
+  top: 14px;
+  white-space: nowrap;
 }
