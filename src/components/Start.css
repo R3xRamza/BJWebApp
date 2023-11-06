@@ -123,5 +123,5 @@
   line-height: 20px;
   position: absolute;
   top: 14px;
-  white-space: nowrap;
+  z-index: 100;
 }

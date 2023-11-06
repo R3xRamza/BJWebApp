@@ -1,0 +1,175 @@
+.vdesktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.vdesktop .div {
+    background-color: #ffffff;
+    height: 2652px;
+    position: relative;
+    width: 1440px;
+}
+
+.vdesktop .text-wrapper {
+    color: #38312c;
+    font-family: "FuturaCyrillicMedium", sans-serif;
+    src: local('FuturaCyrillicMedium'), url(/futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
+    font-size: 84px;
+    font-weight: 500;
+    left: 50vw;
+    transform: translateX(-50%);
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    white-space: nowrap;
+    width: 525px;
+}
+
+.vdesktop .burh {
+    color: #38312c;
+    font-family: "LeMondeLivre-Normal", sans-serif;
+    src: local('LeMondeLivre-Normal'), url(/lemonde-livre/LeMondeLivre-Normal.ttf) format('truetype');
+    font-size: 24px;
+    font-weight: 500;
+    left: 50vw;
+    transform: translateX(-50%);
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 131px;
+    width: 885px;
+}
+
+.vdesktop .p {
+    color: #000000;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-size: 42px;
+    font-weight: 400;
+    left: 278px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1244px;
+    width: 885px;
+}
+
+.vdesktop .rectangle {
+    background-color: #d9d9d9;
+    height: 610px;
+    left: 50vw;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 233px;
+    width: 1090px;
+}
+
+.vdesktop .rectangle-2 {
+    background-color: #d9d9d9;
+    height: 974px;
+    left: 188px;
+    position: absolute;
+    top: 1433px;
+    width: 165px;
+}
+
+.vdesktop .text-wrapper-2 {
+    color: #000000;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-size: 42px;
+    font-weight: 400;
+    left: 458px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1432px;
+    width: 165px;
+}
+
+.vdesktop .text-wrapper-3 {
+    color: #000000;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-size: 42px;
+    font-weight: 400;
+    left: 458px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1734px;
+    width: 165px;
+}
+
+.vdesktop .text-wrapper-4 {
+    color: #000000;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-size: 42px;
+    font-weight: 400;
+    left: 458px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 2036px;
+    width: 165px;
+}
+
+.vdesktop .overlap-group {
+    border-radius: 14px;
+    height: 80px;
+    left: 548px;
+    position: absolute;
+    top: 2502px;
+    width: 345px;
+}
+
+.vdesktop .rectangle-3 {
+    background-color: #bfa160;
+    border-radius: 14px;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 345px;
+}
+
+.vdesktop .text-wrapper-5 {
+    color: #000000;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-size: 42px;
+    font-weight: 400;
+    left: 21px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 11px;
+    width: 303px;
+}
+
+.vdesktop .wordBox {
+    background-color: #f3f3f3;
+    color: #38312c;
+    font-family: "FuturaCyrillicMedium", sans-serif;
+    src: local('FuturaCyrillicMedium'), url(/futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
+    font-weight: 500;
+    font-size: 14;
+    height: 40px;
+    width: 80px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.vdesktop .active {
+    background-color: #c5a054;
+  }

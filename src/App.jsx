@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Hero from './components/startPage.jsx';
+import Hero from './components/Start.jsx';
 
 const App = () => {
 
