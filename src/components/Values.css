@@ -72,53 +72,12 @@
 
 .vdesktop .rectangle-2 {
     background-color: #d9d9d9;
-    height: 974px;
+    height: 510px;
     left: 188px;
     position: absolute;
     top: 1433px;
-    width: 165px;
-}
-
-.vdesktop .text-wrapper-2 {
-    color: #000000;
-    font-family: "DM Serif Display-Regular", Helvetica;
-    font-size: 42px;
-    font-weight: 400;
-    left: 458px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 1432px;
-    width: 165px;
-}
-
-.vdesktop .text-wrapper-3 {
-    color: #000000;
-    font-family: "DM Serif Display-Regular", Helvetica;
-    font-size: 42px;
-    font-weight: 400;
-    left: 458px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 1734px;
-    width: 165px;
-}
-
-.vdesktop .text-wrapper-4 {
-    color: #000000;
-    font-family: "DM Serif Display-Regular", Helvetica;
-    font-size: 42px;
-    font-weight: 400;
-    left: 458px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 2036px;
-    width: 165px;
+    width: 100px;
+    border-radius: 0;
 }
 
 .vdesktop .overlap-group {
@@ -172,4 +131,95 @@
 
 .vdesktop .active {
     background-color: #c5a054;
+  }
+
+/* V1 */
+
+.vdesktop .text-wrapper-2 {
+    color: #000000;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-size: 42px;
+    font-weight: 400;
+    left: 458px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1432px;
+    width: 165px;
+}
+
+.text-input-2 {
+    color: #000000;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-size: 42px;
+    font-weight: 400;
+    left: 458px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1532px;
+    width: 165px;
+  }
+
+
+/* V2 */
+
+.vdesktop .text-wrapper-3 {
+    color: #000000;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-size: 42px;
+    font-weight: 400;
+    left: 458px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1734px;
+    width: 165px;
+}
+
+.text-input-3 {
+    color: #000000;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-size: 42px;
+    font-weight: 400;
+    left: 458px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1834px;
+    width: 165px;
+  }
+
+/* V3 */
+  
+.vdesktop .text-wrapper-4 {
+    color: #000000;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-size: 42px;
+    font-weight: 400;
+    left: 458px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 2036px;
+    width: 165px;
+}
+
+.text-input-4 {
+    color: #000000;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-size: 42px;
+    font-weight: 400;
+    left: 458px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 2136px;
+    width: 165px;
   }
