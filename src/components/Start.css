@@ -13,14 +13,23 @@
   width: inherit;
 }
 
+.desktop .logo {
+  position: absolute;
+  left: 50px;
+  top: 0px; 
+  width: 100px;
+  height: 100px;
+}
+
 .desktop .overlap {
   background-image: url(https://www.brightonjones.com/wp-content/uploads/2021/12/tall-hero-2.png);
   background-position: 50% 50%;
   background-size: cover;
-  height: 329px;
+  background-color: #d9d9d9;
   left: 0;
   position: absolute;
-  top: 183px;
+  height: 400px;
+  top: 100px;
   width: 100vw;
 }
 
@@ -125,3 +134,4 @@
   top: 14px;
   z-index: 100;
 }
+

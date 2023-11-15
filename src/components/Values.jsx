@@ -7,7 +7,7 @@ export const Values = () => {
         <div className="vdesktop">
             <div className="div">
                 <div className="text-wrapper">My Values</div>
-                <p className="burh">Click on words to add them to your values list</p>
+                <p className="burh">Click on words to add them to your values list. Choose up to 10 words that align with your values</p>
                 <p className="p">Click on three values to write shortly about</p>
                 <Rectangle />
             </div>

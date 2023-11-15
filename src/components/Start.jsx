@@ -6,11 +6,20 @@ export const Hero = () => {
   const [showLogin, setShowLogin] = useState(false);
 
   const handleRectangleClick = () => {
-    setShowLogin(true); // Set the state to true to render the Login component
+    setShowLogin(true); 
+    window.scrollTo({
+      top: 0
+      });
   };
 
   return (
     <div className="desktop">
+      <a href="https://www.brightonjones.com/" target="_blank" rel="noopener noreferrer">
+            <img
+              className="logo"
+              src="https://www.brightonjones.com/wp-content/themes/brightonjones/assets/images/logo.svg"
+            />
+          </a>
       {!showLogin ? (
         <div className="div">
           <div className="overlap">

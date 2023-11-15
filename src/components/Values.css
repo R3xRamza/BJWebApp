@@ -8,17 +8,31 @@
 
 .vdesktop .div {
     background-color: #ffffff;
+    top: 100px;
     height: 2652px;
     position: relative;
     width: 1440px;
 }
 
-.vdesktop .text-wrapper {
+/* title font */
+.vdesktop .text-wrapper, .vdesktop .text-wrapper-2, .vdesktop .text-wrapper-3, .vdesktop .text-wrapper-4 {
     color: #38312c;
     font-family: "FuturaCyrillicMedium", sans-serif;
     src: local('FuturaCyrillicMedium'), url(/futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
     font-size: 84px;
     font-weight: 500;
+}
+
+/* description font */
+.vdesktop .burh, .vdesktop .p, .text-input-2, .text-input-3, .text-input-4 {
+    color: #38312c;
+    font-family: "LeMondeLivre-Normal", sans-serif;
+    src: local('LeMondeLivre-Normal'), url(/lemonde-livre/LeMondeLivre-Normal.ttf) format('truetype');
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.vdesktop .text-wrapper {
     left: 50vw;
     transform: translateX(-50%);
     letter-spacing: 0;
@@ -31,11 +45,6 @@
 }
 
 .vdesktop .burh {
-    color: #38312c;
-    font-family: "LeMondeLivre-Normal", sans-serif;
-    src: local('LeMondeLivre-Normal'), url(/lemonde-livre/LeMondeLivre-Normal.ttf) format('truetype');
-    font-size: 24px;
-    font-weight: 500;
     left: 50vw;
     transform: translateX(-50%);
     letter-spacing: 0;
@@ -47,17 +56,13 @@
 }
 
 .vdesktop .p {
-    color: #000000;
-    font-family: "DM Serif Display-Regular", Helvetica;
-    font-size: 42px;
-    font-weight: 400;
-    left: 278px;
+    left: 50vw;
+    transform: translateX(-50%);
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 1244px;
-    width: 885px;
+    top: 900px;
 }
 
 .vdesktop .rectangle {
@@ -66,16 +71,17 @@
     left: 50vw;
     transform: translateX(-50%);
     position: absolute;
-    top: 233px;
+    top: 250px;
     width: 1090px;
 }
 
 .vdesktop .rectangle-2 {
     background-color: #d9d9d9;
     height: 510px;
-    left: 188px;
+    left: 50vw;
+    transform: translateX(-595);
     position: absolute;
-    top: 1433px;
+    top: 1000px;
     width: 100px;
     border-radius: 0;
 }
@@ -136,30 +142,23 @@
 /* V1 */
 
 .vdesktop .text-wrapper-2 {
-    color: #000000;
-    font-family: "DM Serif Display-Regular", Helvetica;
-    font-size: 42px;
-    font-weight: 400;
+    font-size: 30px;
     left: 458px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 1432px;
+    top: 1000px;
     width: 165px;
 }
 
 .text-input-2 {
-    color: #000000;
-    font-family: "DM Serif Display-Regular", Helvetica;
-    font-size: 42px;
-    font-weight: 400;
     left: 458px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 1532px;
+    top: 1100px;
     width: 165px;
   }
 
@@ -167,59 +166,45 @@
 /* V2 */
 
 .vdesktop .text-wrapper-3 {
-    color: #000000;
-    font-family: "DM Serif Display-Regular", Helvetica;
-    font-size: 42px;
-    font-weight: 400;
+    font-size: 30px;
     left: 458px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 1734px;
+    top: 1200px;
     width: 165px;
 }
 
 .text-input-3 {
-    color: #000000;
-    font-family: "DM Serif Display-Regular", Helvetica;
-    font-size: 42px;
-    font-weight: 400;
     left: 458px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 1834px;
+    top: 1300px;
     width: 165px;
   }
 
 /* V3 */
   
 .vdesktop .text-wrapper-4 {
-    color: #000000;
-    font-family: "DM Serif Display-Regular", Helvetica;
-    font-size: 42px;
-    font-weight: 400;
+    font-size: 30px;
     left: 458px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 2036px;
+    top: 1400px;
     width: 165px;
 }
 
 .text-input-4 {
-    color: #000000;
-    font-family: "DM Serif Display-Regular", Helvetica;
-    font-size: 42px;
-    font-weight: 400;
     left: 458px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 2136px;
+    top: 1500px;
     width: 165px;
   }
