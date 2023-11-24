@@ -1,4 +1,4 @@
-.vdesktop {
+.pdesktop {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -6,7 +6,7 @@
     width: 100%;
 }
 
-.vdesktop .div {
+.pdesktop .div {
     background-color: #ffffff;
     top: 100px;
     height: 1800px;
@@ -15,7 +15,7 @@
 }
 
 /* title font */
-.vdesktop .text-wrapper, .vdesktop .text-wrapper-2, .vdesktop .text-wrapper-3, .vdesktop .text-wrapper-4 {
+.pdesktop .text-wrapper, .pdesktop .text-wrapper-2, .pdesktop .text-wrapper-3, .pdesktop .text-wrapper-4 {
     color: #38312c;
     font-family: "FuturaCyrillicMedium", sans-serif;
     src: local('FuturaCyrillicMedium'), url(/futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
@@ -25,7 +25,7 @@
 }
 
 /* description font */
-.vdesktop .burh, .p, .text-input-2, .text-input-3, .text-input-4 {
+.pdesktop .burh, .p, .text-input-2, .text-input-3, .text-input-4 {
     color: #38312c;
     font-family: "LeMondeLivre-Normal", sans-serif;
     src: local('LeMondeLivre-Normal'), url(/lemonde-livre/LeMondeLivre-Normal.ttf) format('truetype');
@@ -33,7 +33,7 @@
     font-weight: 500;
 }
 
-.vdesktop .text-wrapper {
+.pdesktop .text-wrapper {
     left: 50vw;
     transform: translateX(-50%);
     letter-spacing: 0;
@@ -45,7 +45,7 @@
     width: 525px;
 }
 
-.vdesktop .burh {
+.pdesktop .burh {
     left: 50vw;
     transform: translateX(-50%);
     letter-spacing: 0;
@@ -57,20 +57,20 @@
     user-select: none;
 }
 
-.vdesktop .p {
+.pdesktop .p {
     left: 50vw;
     transform: translateX(-50%);
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 900px;
+    top: 650px;
     user-select: none;
 }
 
-.vdesktop .rectangle {
+.pdesktop .rectangle {
     background-color: #d9d9d9;
-    height: 610px;
+    height: 400px;
     left: 50vw;
     transform: translateX(-50%);
     position: absolute;
@@ -78,30 +78,30 @@
     width: 1090px;
 }
 
-.vdesktop .rectangle-2 {
+.pdesktop .rectangle-2 {
     background-color: #d9d9d9;
     height: 610px;
     left: 50vw;
     transform: translateX(-50%);
     transform: translateX(-545px);
     position: absolute;
-    top: 1000px;
+    top: 750px;
     width: 100px;
     border-radius: 0;
 }
 
-.vdesktop .overlap-group {
+.pdesktop .overlap-group {
     border-radius: 14px;
     height: 40px;
     left: 50vw;
     transform: translateX(-50%);
     position: absolute;
-    top: 1650px;
+    top: 1400px;
     width: 150px;
     cursor: pointer;
   }
   
-  .vdesktop .rectangle-3 {
+  .pdesktop .rectangle-3 {
     background-color: #c5a054;
     border-radius: 14px;
     height: 40px;
@@ -109,7 +109,7 @@
     width: 150px;
   }
   
-  .vdesktop .text-wrapper-5 {
+  .pdesktop .text-wrapper-5 {
     color: #ffffff;
     font-family: "FuturaCyrillicMedium", sans-serif;
     src: local('FuturaCyrillicMedium'), url(./futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
@@ -126,14 +126,13 @@
   
   
 
-.vdesktop .wordBox {
+  .pdesktop .wordBox {
     background-color: #f3f3f3;
     color: #38312c;
     font-family: "FuturaCyrillicMedium", sans-serif;
     src: local('FuturaCyrillicMedium'), url(/futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
     font-weight: 500;
     font-size: 12px;
-    padding-top: 10px;
     height: 30px;
     width: 80px;
     text-align: center;
@@ -142,15 +141,25 @@
     margin-top: 10px;
     cursor: pointer;
     user-select: none;
+    position: relative; 
 }
 
-.vdesktop .active {
+.pdesktop .wordBox span {
+    position: absolute; /* Use absolute positioning for the inner text */
+    top: 50%; /* Move the text to the vertical center of the box */
+    left: 0; /* Align the text to the left within the box */
+    transform: translateY(-50%); /* Adjust for the vertical centering */
+    width: 100%; /* Allow the text to take the full width of the box */
+}
+
+
+.pdesktop .active {
     background-color: #c5a054;
   }
 
 /* V1 */
 
-.vdesktop .text-wrapper-2 {
+.pdesktop .text-wrapper-2 {
     font-size: 30px;
     left: 50vw;
     transform: translateX(-400px);
@@ -158,16 +167,16 @@
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 1000px;
+    top: 750px;
     width: 165px;
 }
 
-.vdesktop .text-input-2 {
+.pdesktop .text-input-2 {
     left: 50vw;
     transform: translateX(-370px);
     line-height: normal;
     position: absolute;
-    top: 1050px;
+    top: 800px;
     width: 915px;
     height: 115px;
     text-align: left;
@@ -177,7 +186,7 @@
 
 /* V2 */
 
-.vdesktop .text-wrapper-3 {
+.pdesktop .text-wrapper-3 {
     font-size: 30px;
     left: 50vw;
     transform: translateX(-400px);
@@ -185,16 +194,16 @@
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 1200px;
+    top: 950px;
     width: 165px;
 }
 
-.vdesktop .text-input-3 {
+.pdesktop .text-input-3 {
     left: 50vw;
     transform: translateX(-370px);
     line-height: normal;
     position: absolute;
-    top: 1250px;
+    top: 1000px;
     width: 915px;
     height: 115px;
     text-align: left;
@@ -203,7 +212,7 @@
 
 /* V3 */
   
-.vdesktop .text-wrapper-4 {
+.pdesktop .text-wrapper-4 {
     font-size: 30px;
     left: 50vw;
     transform: translateX(-400px);
@@ -211,16 +220,16 @@
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 1400px;
+    top: 1150px;
     width: 165px;
 }
 
-.vdesktop .text-input-4 {
+.pdesktop .text-input-4 {
     left: 50vw;
     transform: translateX(-370px);
     line-height: normal;
     position: absolute;
-    top: 1450px;
+    top: 1200px;
     width: 915px;
     height: 115px;
     text-align: left;

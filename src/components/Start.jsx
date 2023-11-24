@@ -26,14 +26,8 @@ export const Hero = () => {
             <div className="text-wrapper">My Values, Passions, Purpose</div>
             <p className="p">Align your influence with your interests</p>
           </div>
-          <div className="overlap-group">
-            <div className="rectangle" />
-            <div className="text-wrapper-2">Email</div>
-          </div>
-          <div className="overlap-group-2">
-            <div className="rectangle" />
-            <div className="text-wrapper-2">Password</div>
-          </div>
+          <input className="text-input" placeholder="Email" />
+          <input className="text-input1" type="password" placeholder="Password" />
           <div className="overlap-2">
             <div className="rectangle-2" onClick={handleRectangleClick} />
             <div className="text-wrapper-3">Login</div>

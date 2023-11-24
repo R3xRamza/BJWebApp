@@ -1,0 +1,21 @@
+.vdesktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.vdesktop .div {
+    background-color: #ffffff;
+    top: 100px;
+    height: 1800px;
+    position: relative;
+    width: 1440px;
+}
+.m {
+    height: 360px;
+}
+.l {
+    transform: translateY(250px);
+}

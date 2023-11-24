@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./Values.css";
-import Rectangle from "./ValueBox";
-import Passions from "./Passions";
+import PRectangle from "./PassionBox";
+import RLS from "./RLS";
 
-export const Values = () => {
+export const Passions = () => {
 
     const [showLogin, setShowLogin] = useState(false);
 
@@ -15,24 +15,24 @@ export const Values = () => {
   };
 
     return (
-        <div className="vdesktop">
+        <div className="pdesktop">
             {!showLogin ? (
             <div className="div">
                 <div className="text-wrapper">My Values</div>
                 <p className="burh">Click on words to add them to your values list. Choose up to 12 words that align with your values</p>
                 <p className="p">Click on three values to write shortly about</p>
-                <Rectangle />
+                <PRectangle />
                 <div className="overlap-group" onClick={handleRectangleClick}>
                     <div className="rectangle-3"/>
                     <div className="text-wrapper-5">Submit Values</div>
                 </div>
             </div>
             ) : (
-            <Passions/>
+            <RLS/>
             )};
         </div>
 
 )};
 
 
-export default Values;
+export default Passions;
