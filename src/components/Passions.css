@@ -64,13 +64,13 @@
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 650px;
+    top: 900px;
     user-select: none;
 }
 
 .pdesktop .rectangle {
     background-color: #d9d9d9;
-    height: 400px;
+    height: 610px;
     left: 50vw;
     transform: translateX(-50%);
     position: absolute;
@@ -85,8 +85,8 @@
     transform: translateX(-50%);
     transform: translateX(-545px);
     position: absolute;
-    top: 750px;
-    width: 100px;
+    top: 1000px;
+    width: 164.25px;
     border-radius: 0;
 }
 
@@ -96,7 +96,7 @@
     left: 50vw;
     transform: translateX(-50%);
     position: absolute;
-    top: 1400px;
+    top: 1650px;
     width: 150px;
     cursor: pointer;
   }
@@ -126,32 +126,23 @@
   
   
 
-  .pdesktop .wordBox {
+.pdesktop .wordBox {
     background-color: #f3f3f3;
     color: #38312c;
     font-family: "FuturaCyrillicMedium", sans-serif;
     src: local('FuturaCyrillicMedium'), url(/futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
     font-weight: 500;
     font-size: 12px;
+    padding-top: 10px;
     height: 30px;
-    width: 80px;
+    width: 144.25px;
     text-align: center;
     display: inline-block;
     margin-left: 10px;
     margin-top: 10px;
     cursor: pointer;
     user-select: none;
-    position: relative; 
 }
-
-.pdesktop .wordBox span {
-    position: absolute; /* Use absolute positioning for the inner text */
-    top: 50%; /* Move the text to the vertical center of the box */
-    left: 0; /* Align the text to the left within the box */
-    transform: translateY(-50%); /* Adjust for the vertical centering */
-    width: 100%; /* Allow the text to take the full width of the box */
-}
-
 
 .pdesktop .active {
     background-color: #c5a054;
@@ -162,22 +153,23 @@
 .pdesktop .text-wrapper-2 {
     font-size: 30px;
     left: 50vw;
-    transform: translateX(-400px);
+    transform: translateX(-320px);
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 750px;
-    width: 165px;
+    top: 1000px;
+    width: 500px;
+    text-align: left;
 }
 
 .pdesktop .text-input-2 {
     left: 50vw;
-    transform: translateX(-370px);
+    transform: translateX(-320px);
     line-height: normal;
     position: absolute;
-    top: 800px;
-    width: 915px;
+    top: 1050px;
+    width: 865px;
     height: 115px;
     text-align: left;
     resize: none;
@@ -189,22 +181,23 @@
 .pdesktop .text-wrapper-3 {
     font-size: 30px;
     left: 50vw;
-    transform: translateX(-400px);
+    transform: translateX(-320px);
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 950px;
-    width: 165px;
+    top: 1200px;
+    width: 500px;
+    text-align: left;
 }
 
 .pdesktop .text-input-3 {
     left: 50vw;
-    transform: translateX(-370px);
+    transform: translateX(-320px);
     line-height: normal;
     position: absolute;
-    top: 1000px;
-    width: 915px;
+    top: 1250px;
+    width: 865px;
     height: 115px;
     text-align: left;
     resize: none;
@@ -215,22 +208,23 @@
 .pdesktop .text-wrapper-4 {
     font-size: 30px;
     left: 50vw;
-    transform: translateX(-400px);
+    transform: translateX(-320px);
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 1150px;
-    width: 165px;
+    top: 1400px;
+    width: 500px;
+    text-align: left;
 }
 
 .pdesktop .text-input-4 {
     left: 50vw;
-    transform: translateX(-370px);
+    transform: translateX(-320px);
     line-height: normal;
     position: absolute;
-    top: 1200px;
-    width: 915px;
+    top: 1450px;
+    width: 865px;
     height: 115px;
     text-align: left;
     resize: none;

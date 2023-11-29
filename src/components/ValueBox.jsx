@@ -33,6 +33,16 @@ const Rectangle = () => {
             } else {
                 setSelected(selected.filter((w) => w !== word));
                 setSelectedWords2(selected2.filter((w) => w !== word));
+                if (v1 == word) {
+                    v1 = "Value 1";
+                    setInputText1("");
+                } else if (v2 == word) {
+                    v2 = "Value 2";
+                    setInputText2("");
+                } else if (v3 == word) {
+                    v3 = "Value 3";
+                    setInputText3("");
+                }
             }
         }
     };
@@ -64,7 +74,6 @@ const Rectangle = () => {
         else {
              //checking if the word is already in the value
             if (v1 == word) {
-                 //checking if the word is already in the value
                 v1 = "Value 1";
                 setInputText1("");
             } else if (v2 == word) {
