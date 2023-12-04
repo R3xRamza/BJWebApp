@@ -1,0 +1,54 @@
+.rdesktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+  
+.rdesktop .div {
+    background-color: #ffffff;
+    height: 900px;
+    position: relative;
+}
+
+.rdesktop .text-wrapper {
+    color: #38312c;
+    font-family: "FuturaCyrillicMedium", sans-serif;
+    src: local('FuturaCyrillicMedium'), url(/futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
+    font-size: 84px;
+    font-weight: 500;
+    user-select: none;
+}
+
+.rdesktop .burh {
+    color: #38312c;
+    font-family: "LeMondeLivre-Normal", sans-serif;
+    src: local('LeMondeLivre-Normal'), url(/lemonde-livre/LeMondeLivre-Normal.ttf) format('truetype');
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.rdesktop .text-wrapper {
+    left: 50vw;
+    transform: translateX(-50%);
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: middle;
+    top: 30px;
+    white-space: nowrap;
+    width: 1225px;
+}
+
+.rdesktop .burh {
+    left: 50vw;
+    transform: translateX(-50%);
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: middle;
+    top: 131px;
+    width: 885px;
+    user-select: none;
+}

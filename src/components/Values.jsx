@@ -29,10 +29,10 @@ export const Values = () => {
             </div>
             ) : (
             <Passions/>
-            )};
+            )}
         </div>
 
 )};
 
 
-export default Values;
+export default Values
