@@ -36,7 +36,7 @@
 .desktop .text-wrapper {
   color: #38312c;
   font-family: "FuturaCyrillicMedium", sans-serif;
-  src: local('FuturaCyrillicMedium'), url(/futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
+  src: url(../assets/futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
   font-size: 84px;
   font-weight: 500;
   left: 50%;
@@ -52,7 +52,7 @@
 .desktop .p {
   color: #38312c;
   font-family: "LeMondeLivre-Normal", sans-serif;
-  src: local('LeMondeLivre-Normal'), url(/lemonde-livre/LeMondeLivre-Normal.ttf) format('truetype');
+  src: url(../assets/lemonde-livre/LeMondeLivre-Normal.ttf) format('truetype');
   font-size: 24px;
   font-weight: 500;
   left: 512px;
@@ -69,7 +69,7 @@
   border-radius: 0px;
   color:#38312c;
   font-family: "LeMondeLivre-Normal", sans-serif;
-  src: local('LeMondeLivre-Normal'), url(/lemonde-livre/LeMondeLivre-Normal.ttf) format('truetype');
+  src: url(../assets/lemonde-livre/LeMondeLivre-Normal.ttf) format('truetype');
   height: 30px;
   left: 50vw;
   transform: translateX(-50%);
@@ -107,7 +107,7 @@
 .desktop .text-wrapper-3 {
   color: #ffffff;
   font-family: "FuturaCyrillicMedium", sans-serif;
-  src: local('FuturaCyrillicMedium'), url(./futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
+  src: url(../assets/futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
   font-size: 20px;
   font-weight: 500;
   left: 32px;

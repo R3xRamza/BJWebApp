@@ -15,7 +15,7 @@
 .rdesktop .text-wrapper {
     color: #38312c;
     font-family: "FuturaCyrillicMedium", sans-serif;
-    src: local('FuturaCyrillicMedium'), url(/futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
+    src: url(../assets/futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
     font-size: 84px;
     font-weight: 500;
     user-select: none;
@@ -24,7 +24,7 @@
 .rdesktop .burh {
     color: #38312c;
     font-family: "LeMondeLivre-Normal", sans-serif;
-    src: local('LeMondeLivre-Normal'), url(/lemonde-livre/LeMondeLivre-Normal.ttf) format('truetype');
+    src: url(../assets/lemonde-livre/LeMondeLivre-Normal.ttf) format('truetype');
     font-size: 24px;
     font-weight: 500;
 }

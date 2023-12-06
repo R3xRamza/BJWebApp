@@ -1,16 +1,15 @@
 import React from "react";
 import "./RLS.css";
-import ValueBox from "./ValueBox.jsx"
 
-export const RLS = () => {
+export const RLS = (props) => {
     return (
         <div className="rdesktop">
             <div className="div">
-                <div className="text-wrapper">My Richer Life Statement</div>
+                <div className="text-wrapper">My Richer Life Statement {props.v1}</div>
                 <p className="burh">Align your values and passions to live a richer life</p>
             </div>
         </div>
     );
 };
 
-export default RLS;
+export default RLS

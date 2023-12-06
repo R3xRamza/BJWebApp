@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./Values.css";
-import PRectangle from "./PassionBox";
-import RLS from "./RLS";
+import PRectangle from "./PassionBox.jsx";
+import RLS from "./RLS.jsx";
 
-export const Passions = () => {
+export const Passions = (props) => {
 
     const [showLogin, setShowLogin] = useState(false);
 
@@ -28,7 +28,7 @@ export const Passions = () => {
                 </div>
             </div>
             ) : (
-            <RLS/>
+            <RLS {...props}/>
             )}
         </div>
 

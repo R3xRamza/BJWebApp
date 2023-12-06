@@ -18,7 +18,7 @@
 .vdesktop .text-wrapper, .vdesktop .text-wrapper-2, .vdesktop .text-wrapper-3, .vdesktop .text-wrapper-4 {
     color: #38312c;
     font-family: "FuturaCyrillicMedium", sans-serif;
-    src: local('FuturaCyrillicMedium'), url(/futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
+    src: url(../assets/futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
     font-size: 84px;
     font-weight: 500;
     user-select: none;
@@ -28,7 +28,7 @@
 .vdesktop .burh, .p, .text-input-2, .text-input-3, .text-input-4 {
     color: #38312c;
     font-family: "LeMondeLivre-Normal", sans-serif;
-    src: local('LeMondeLivre-Normal'), url(/lemonde-livre/LeMondeLivre-Normal.ttf) format('truetype');
+    src: url(../assets/lemonde-livre/LeMondeLivre-Normal.ttf) format('truetype');
     font-size: 24px;
     font-weight: 500;
 }
@@ -112,7 +112,7 @@
   .vdesktop .text-wrapper-5 {
     color: #ffffff;
     font-family: "FuturaCyrillicMedium", sans-serif;
-    src: local('FuturaCyrillicMedium'), url(./futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
+    src: url(../assets/futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0;
@@ -130,7 +130,7 @@
     background-color: #f3f3f3;
     color: #38312c;
     font-family: "FuturaCyrillicMedium", sans-serif;
-    src: local('FuturaCyrillicMedium'), url(/futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
+    src: url(../assets/futura-pt-cufonfonts/FuturaCyrillicMedium.ttf) format('truetype');
     font-weight: 500;
     font-size: 12px;
     padding-top: 10px;

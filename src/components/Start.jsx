@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Start.css";
-import Values from "./Values"; // Replace with the appropriate component
+import Values from "./Values.jsx"; 
 
 export const Hero = () => {
   const [showLogin, setShowLogin] = useState(false);
